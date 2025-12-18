@@ -12,15 +12,16 @@ Prototype browser game inspired by “Buckshot Roulette”:
 
 ## Run it
 
-Because this uses ES modules, you should run it with a local HTTP server (opening `index.html` directly may be blocked by the browser).
+This project uses Vite (React + Three.js). Run it with the dev server.
 
 From the repo root:
 
 ```bash
-python3 -m http.server 8000
+npm install
+npm run dev
 ```
 
-Then open `http://localhost:8000`.
+Then open the URL printed by Vite (usually `http://localhost:5173`).
 
 ## Controls
 

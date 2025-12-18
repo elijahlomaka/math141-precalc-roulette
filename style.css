@@ -8,6 +8,15 @@ body {
     Arial, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
+#root {
+  position: fixed;
+  inset: 0;
+}
+
+canvas {
+  display: block;
+}
+
 #overlay {
   position: fixed;
   inset: 0;
