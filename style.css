@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: #050506;
+  color: #e9e9ee;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+#overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
+
+.hint {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  opacity: 0.65;
+  font-size: 12px;
+  max-width: 520px;
+  line-height: 1.35;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.sub {
+  margin-top: 4px;
+}
